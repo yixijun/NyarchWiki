@@ -6,14 +6,14 @@ If you want to contribute to Nyarch Development, you can propose new projects, o
 ## Projects Overview
 | Project | Project Type | Development Status | Required Skills | Further information |
 |---|---|---|---|---|
-| [KDE Plasma Spin](#kde-plasma-spin) | Desktop Spin | Idea | Programming, Kirigami, ISO Building |  |
+| [KDE Plasma Spin](#kde-plasma-spin) | Desktop Spin | Development | Programming, Kirigami, ISO Building |  |
 | [Hyprland Spin](#hyprland-spin)  | Desktop Spin | Idea  | Programming, gtk-layer-shell, ISO Building |   |
-| [Better AI Integration](#better-ai-intergation)  | Desktop Application | Idea | Programming, Python  | Add writing assistant, OCR etc... and integrate with Nyarch Assistant  |
 | [Nyarch Assistant Desktop Puppet](#nyarch-assistant-desktop-puppet)  | Desktop Application | Development | Programming, Python, GTK Layer Shell  | Acchan as a desktop pet with AI integration |
 | [Nyarch Tuner](#nyarch-tuner)  | Desktop Application | Idea | Programming, GTK  | User friendly utility to configure kernels, zram, preoload... |
 | [AI Wallpaper generator](#ai-wallpaper-generator)  | Desktop Application | Idea | Programming, GTK  | Simple anime wallpaper generator with AI |
 | Application Selection Calamares  | Improvement | Idea | Calamares  | Add a configuration page that makes you choose to disable/enable some Nyarch Features on Calamares installer |
 | [New Website](#new-website)  | Website | Development | HTML, CSS, JS  | New modern scrolling website for Nyarch. Currently assigned to Wawa. |
+| [Better AI Integration](#better-ai-intergation)  | Desktop Application | Idea (Rejected) | Programming, Python  | Add writing assistant, OCR etc... and integrate with Nyarch Assistant  |
 
 ## Projects description
 In this section you can find some exploration about the projects and some software, library etc. that might accelerate development.
@@ -56,13 +56,12 @@ Because it's cool, we will also add [Geometry Change](https://store.kde.org/p/21
 
 | Task | Description | Status | Complexity | Further information | Criticality |
 |---|---|---|---|---|---|
-| Creating a ISO with KDE | Create a Nyarch ISO with required Plasma packages and make it bootable and installable | TODO | Simple |  | Critical |
+| Creating a ISO with KDE | Create a Nyarch ISO with required Plasma packages and make it bootable and installable | DONE | Simple |  | Critical |
 | Find KDE alternatives | Find KDE alternatives for some of our bloat (Komikku ...) | TODO | Simple |  | Optional |
-| Install `kde-material-you` | Install KDE Material You for theming | TODO | Simple |  | Critical |
-| KDE Dotfiles | Find and add relevant dotfiles to the distribution. | TODO | Simple |  | Critical |
+| Install `kde-material-you` | Install KDE Material You for theming | DONE | Simple |  | Critical |
+| KDE Dotfiles | Find and add relevant dotfiles to the distribution. | DOING | Simple |  | Critical |
 | Ensure correct GTK support and theming | Customize the dotfiles to ensure GTK support. | TODO | Simple |  | Critical |
 | Catgirl Downloader Kirigami version | Rewrite Catgirl downloader in Kirigami. | TODO | Simple |  | Critical |
-| Waifu Downloader Kirigami version | Rewrite Waifu downloader in Kirigami. | TODO | Simple |  | Critical |
 | Nyarch Wizard Kirigami version | Rewrite Nyarch Wizard in Kirigami. | TODO | Medium |  | Optional |
 | Nyarch Script Kirigami version | Rewrite Nyarch Script in Kirigami. | TODO | Medium |  | Optional |
 | Nyarch Tour Kirigami version | Rewrite Nyarch Tour in Kirigami. | TODO | Simple |  | Optional |
@@ -168,18 +167,21 @@ GTK Layer shell currently is **not supported on Gnome**, but it can likely be im
 | Task | Description | Status | Complexity | Further information | Criticality |
 |---|---|---|---|---|---|
 | Correctly resize the model | At the moment the model size is not handled perfectly and does not adapt to any monitor resolution | TODO | Simple |  | Critical |
-| Support for KDE Plasma | Support KDE mouse movement and KDE monitors | TODO | Simple  | | Critical |
-| Better Hyprland support | Support for hyprland monitors | TODO | Simple |  | Critical |
-| Support Gnome | Add Gnome support, which require a custom extension | TODO | Medium |  | Critical |
+| Support for KDE Plasma | Support KDE mouse movement and KDE monitors | Partial | Simple  | | Critical |
+| Better Hyprland support | Support for hyprland monitors | Done | Simple |  | Critical |
+| Support Gnome | Add Gnome support, which require a custom extension | Partial | Medium |  | Critical |
 | Add model interactions | Add abilities to interact with the model and show animations | TODO | Medium |  | Critical |
-| Integration with Nyarch Assistant | The model must connect with Nyarch Assistant | TODO | Medium |  | Critical |
-| Add screenshot capability with Nyarch Assistant | The model can take a screenshot of the screen to help the user (obv if prompted and allowed) | TODO | Simple |  | Critical |
+| Integration with Nyarch Assistant | The model must connect with Nyarch Assistant | Done | Medium |  | Critical |
+| Add screenshot capability with Nyarch Assistant | The model can take a screenshot of the screen to help the user (obv if prompted and allowed) | Done | Simple |  | Critical |
 | Add some idle animations | The model moves around and does thing on your desktop | TODO | Complex |  | Optional |
 | Website update | Update the website to list this feature | TODO | Simple |  | Critical |
 
 Development phase: in an early development phase, we can ship a Nyarch Assistant extension in order to receive feedback from users
 
 ### Better AI Intergation
+
+This feature has been rejected through polling. It will not be implemented.
+
 #### Goals
 
 1. Simplify interaction with Nyarch Assistant AI
