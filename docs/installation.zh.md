@@ -1,16 +1,17 @@
 如果你已经安装了 Linux 发行版，Nyarch Linux 的安装程序是相同的。
 
-如果你尚未安装 Linux 发行版，请考虑安装其他发行版。
+如果你尚未安装 Linux 发行版，请考虑安装其他发行版喵～。
 如果你仍然想继续，那么你可以决定在哪里安装 Nyarch：
 
 1. [你的电脑](#installing-nyarch-on-your-computer)
 2. [虚拟机](#install-nyarch-on-a-virtual-machine)
 3. [在现有的 Linux 发行版上](/nyarcher)
 
-## 在你的电脑上安装 Nyarch
+## Installing Nyarch on your Computer
+   在你的电脑上安装 Nyarch
 
 ### 先决条件
-- 一台符合[资源要求](https://nyarchlinux.moe/#requirements )的电脑
+- 一台符合[建议配置](https://nyarchlinux.moe/#requirements )的猫猫
 - 至少 4GB 容量的 U 盘
 - 一台已能正常工作的电脑（或者如果你使用 [Etchdroid](https://etchdroid.app/ )，安卓设备也可以）
 - 下载了正确的 Nyarch ISO 文件。ISO 文件可以在 [https://nyarchlinux.moe/ ](https://nyarchlinux.moe/#download )找到。如果你有 **Nvidia GPU**，请[在此](https://wiki.nyarchlinux.moe/nvidia )查看支持情况
@@ -30,6 +31,11 @@
 并选择你的 U 盘**注意：务必选择正确的驱动器，因为上面的所有文件都会丢失**。
 6. 点击"刷写"并等待完成。 
 ![immagine](https://github.com/user-attachments/assets/8a0f4a68-c36a-4f8f-968d-0b2c59d442dd )
+
+### 使用Venoy ###
+
+按照Ventoy官方制作好Ventoy启动盘，将Nyarch的镜像放置到你的移动猫盘，随后在启动的Ventoy中选择ISO镜像中
+
 
 ### 选择安装方法
 你可以决定以以下方式安装 Nyarch：
@@ -54,9 +60,10 @@
 3. 禁用安全启动
 4. 找到启动顺序设置，将你的 U 盘放在第一位。或者，如果你有访问启动菜单的权限，从那里启动。
 5. 保存并退出
-6. 希望 Nyarch Live 能启动。如果不能，检查你是否确实将 U 盘设为第一位，然后在 Nyarch 支持频道（或任何 Linux 社区支持）中哭着求助。
+6. 希望 Nyarch Live 能启动。如果不能，检查你是否确实将 U 盘设为第一位，然后在 Nyarch 支持频道（或任何 Linux 社区支持）中化身猫娘求助。
 
-### Nyarch Live 环境
+### Nyarch Live Environment
+    Nyarch Live 环境
 你* 成功地 *已成功启动 Nyarch。 
 现在你处于 **Live 环境**中。 
 
@@ -65,7 +72,7 @@
 
 这样，**你可以测试 Linux 发行版的工作方式**，特别是 **Wifi、硬件设备、声音等...**。你还可以探索 Nyarch 的一些功能，但是请注意，由于 U 盘的 I/O 速度，**性能比已安装的系统差**。
 
-如果你在 Live 环境中需要执行需要输入用户密码的操作，密码是 `live`。
+如果你在 Live 环境中需要执行需要输入用户密码的操作，密码是 `live`喵喵喵～。
 #### Nyarch 安装程序
 安装程序将在系统启动时自动启动。
 
@@ -96,7 +103,7 @@
 
   - **btrfs**：支持**即时快照**，对数据损坏和冗余有更多保护。某些情况下稍慢（Intel请不要选择，见[Issues＃62](https://github.com/NyarchLinux/NyarchLinux/issues/62)）。
 
-  - xfs：除非你知道自己在做什么，否则不要安装它
+  - xfs：除非你知道自己在做什么，否则不要安装它喵喵喵～
 
 ##### 完成安装
 选择你的猫猫，等待安装完成，然后重启！
@@ -105,12 +112,13 @@
 
 ![immagine](https://github.com/user-attachments/assets/6115a3d3-e75c-4028-b71f-3b0a35109f4b )
 
-## 在虚拟机上安装 Nyarch
+## Install Nyarch on a Virtual Machine
+   在虚拟机上安装 Nyarch
 - 建议用于安装 Nyarch 的虚拟机软件：VMWare Workstation、QEMU、Gnome Boxes
 
 - 不建议用于安装 Nyarch 的虚拟机软件：VirtualBox（因为 3D 加速性能差）
 
-Nyarch 大量使用动画来增强用户体验，所以**在虚拟机中启用 3D 加速**。否则它会卡得要命。兄弟你不会想看比 Blue Lock S2 更差的动画的，相信我。
+Nyarch 大量使用动画来让你有更快的猫机，所以**在虚拟机中启用 3D 加速**。否则它会卡得要命。猫猫你不会想看比 Blue Lock S2 更差的动画的，相信我。
 使用以下规格创建虚拟机：
 
 - CPU：越多越好/根据你的偏好
@@ -121,4 +129,4 @@ Nyarch 大量使用动画来增强用户体验，所以**在虚拟机中启用 3
 
 - UEFI/BIOS 都支持
 
-创建并启动虚拟机后，跳到[Nyarch Live 环境](#nyarch-live-environment)
+创建并启动虚拟机后，跳到[Nyarch Live 环境](#nyarch-live-environment)喵喵喵

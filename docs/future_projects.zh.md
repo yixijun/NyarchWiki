@@ -1,5 +1,5 @@
 # 未来项目
-本页面包含未来和正在开发的项目及其详细信息。
+本页面包含未来和正在开发的项目及其详细信息喵～。
 
 如果您想为 Nyarch 开发做出贡献，您可以提出新项目，或为此处列出的项目做出贡献。要做出贡献，您可以在 [Discord](https://discord.gg/xuw6BNXXE7) 或 [GitHub](https://github.com/NyarchLinux/NyarchLinux) 上联系我们喵～。
 
@@ -8,12 +8,12 @@
 |---|---|---|---|---|
 | [KDE Plasma Spin](#kde-plasma-spin) | 桌面 Spin | 开发中 | 编程、Kirigami、ISO 构建 |  |
 | [Hyprland Spin](#hyprland-spin)  | 桌面 Spin | 想法  | 编程、gtk-layer-shell、ISO 构建 |   |
-| [Nyarch Assistant 桌面宠物](#nyarch-assistant-桌面宠物)  | 桌面应用程序 | 开发中 | 编程、Python、GTK Layer Shell  | Acchan 作为桌面宠物，集成 AI |
+| [Nyarch Assistant 桌面宠物](#nyarch-assistant-desktop-puppet)  | 桌面应用程序 | 开发中 | 编程、Python、GTK Layer Shell  | Acchan 作为桌面宠物，集成 AI |
 | [Nyarch Tuner](#nyarch-tuner)  | 桌面应用程序 | 想法 | 编程、GTK  | 用户友好的实用程序，用于配置内核、zram、预加载... |
-| [AI 壁纸生成器](#ai-壁纸生成器)  | 桌面应用程序 | 想法 | 编程、GTK  | 使用 AI 的简单动漫壁纸生成器 |
+| [AI 壁纸生成器](#ai-wallpaper-generator)  | 桌面应用程序 | 想法 | 编程、GTK  | 使用 AI 的简单动漫壁纸生成器 |
 | 应用程序选择 Calamares  | 改进 | 想法 | Calamares  | 添加配置页面，让您选择在 Calamares 安装程序上禁用/启用某些 Nyarch 功能 |
-| [新主页](#新主页)  | 网站 | 开发中 | HTML、CSS、JS  | Nyarch 的新现代滚动网站。目前分配给 Wawa。 |
-| [更好的 AI 集成](#更好的-ai-集成)  | 桌面应用程序 | 想法（已拒绝） | 编程、Python  | 添加写作助手、OCR 等...并与 Nyarch Assistant 集成  |
+| [新主页](#new-website)  | 网站 | 开发中 | HTML、CSS、JS  | Nyarch 的新现代滚动网站。目前分配给 Wawa。 |
+| [更好的 AI 集成](#better-ai-intergation)  | 桌面应用程序 | 想法（已拒绝） | 编程、Python  | 添加写作助手、OCR 等...并与 Nyarch Assistant 集成  |
 
 ## 项目描述
 在本节中，您可以找到有关项目的一些探索以及可能加速开发的软件、库等。
@@ -185,7 +185,7 @@ GTK Layer shell 目前**不支持 Gnome**，但很可能可以通过扩展用几
 
 开发阶段：在早期开发阶段，我们可以发布 Nyarch Assistant 扩展以接收用户反馈
 
-### 更好的 AI 集成
+### Better AI Intergation
 
 此功能已通过投票拒绝。将不会实施。
 
@@ -236,7 +236,8 @@ GTK Layer shell 目前**不支持 Gnome**，但很可能可以通过扩展用几
 #### 任务
 待定，整个项目估计需要约 80 小时。
 
-### AI 壁纸生成器
+### AI Wallpaper generator
+    AI 壁纸生成器
 #### 目标
 1. 使用 AI 快速生成用作壁纸的图像
 2. 提供一些提示模板（用户选择）以生成高质量图像
@@ -261,7 +262,7 @@ GTK Layer shell 目前**不支持 Gnome**，但很可能可以通过扩展用几
 | 添加图像放大 | 添加图像放大工具支持 | 待办 | 简单 |  | 关键 |
 | 与 Nyarch Assistant 集成 | 允许 Nyarch Assistant 用它生成图像 | 待办 | 中等 |  | 可选 |
 
-### 新主页
+### New Website
 #### 目标
 
 1. 为 Nyarch 设计一个更现代的新网站
@@ -272,7 +273,7 @@ GTK Layer shell 目前**不支持 Gnome**，但很可能可以通过扩展用几
 1. 网站必须容纳 1-3 个桌面衍生版本，展示其功能并引导用户做出正确选择
 2. 安装 Nyarch 仍然需要向用户展示一些关于他正在下载的内容的信息
 3. 网站必须容纳社交媒体链接，特别是宣传 Discord
-4. 网站必须容纳 Wiki、源代码和捐赠链接 
+4. 网站必须容纳 Wiki、源代码和捐赠链接喵喵～ 
 
 #### 探索
 网站正在开发为一个滚动式网站。 

@@ -1,8 +1,8 @@
 # 安装 Nvidia 驱动
 
-从 `24.11.1` 版本开始，Nyarch Linux 再次支持**预装 Nvidia 专有驱动**的 Nyarch 版本。
+从 `24.11.1` 版本开始，Nyarch Linux 再次支持**预装 Nvidia 专有驱动**的 Nyarch 版本喵～。
 
-但是，如果您没有安装 Nvidia 版本，或者您的 Nvidia GPU 不受支持，您可能需要手动安装驱动程序，本指南适合您。
+但是，如果您没有安装 Nvidia 版本，或者您的 Nvidia GPU 不受支持，您可能需要手动安装驱动程序，本指南适合你喵～。
 
 ## 安装
 

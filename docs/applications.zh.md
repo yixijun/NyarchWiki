@@ -1,6 +1,4 @@
-```
 # 安装应用程序
-
 在 Nyarch Linux 上，你可以通过多种方式安装应用程序，这些方式被称为"包格式"。
 本页面解释了不同包格式之间的区别以及如何安装和管理它们。
 
@@ -9,9 +7,9 @@
 1. [Arch Linux 包](#arch-linux-packages) (pacman, .tar.zst)
 2. [Flatpaks](#flatpaks) (商店, .flatpakref, .flatpak)
 3. [AppImages](#appimages) (.appimage)
-4. [Arch 用户仓库](#arch-user-repository) (paru)
+4. [Arch 用户仓库](#arch-user-repository) (yay & paru)
 
-## Arch Linux 包 
+## Arch Linux Packages  
 （几乎）每个 Linux 发行版都有一个包管理器：它帮助你在电脑上安装、移除和更新软件包。
 
 在 Arch Linux 上，包管理器是 `pacman`。
@@ -46,7 +44,7 @@ sudo pacman -Ss package
 ```
 
 ## Flatpaks
-Flatpak 是一种特殊的包格式，允许你在**沙盒**环境中安装应用程序。
+Flatpak 是一种特殊的包格式，允许你在**沙盒**环境中安装应用程序喵～。
 
 这意味着你可以像智能手机一样轻松管理应用程序的权限。
 
@@ -125,17 +123,17 @@ chmod +x application.appimage
 ./application.appimage
 ```
 
-## Arch 用户仓库
+## Arch User Repository
 [AUR](https://aur.archlinux.org/ )（Arch 用户仓库）是一个大型的社区驱动的软件包商店，用于 Arch Linux 官方不支持的软件包。**如果某个应用程序存在，你很可能会在 AUR 中找到它。**
 
 Nyarch Linux 完全兼容 AUR，因为它使用默认的 Arch Linux 仓库。
 
-**警告**：AUR 上的软件包由用户上传，因此它们可能不安全。建议始终从软件包构建中检查它们是否可信。
+**警告**：AUR 上的软件包由用户上传，因此它们可能不安全。建议始终从软件包构建中检查它们是否可信喵喵喵～。
 
 ### 安装软件包
 要安装 AUR 软件包，你需要一个 [AUR 助手](https://wiki.archlinux.org/title/AUR_helpers )。
 
-默认情况下，Nyarch Linux 将 `yay` 作为默认 AUR 助手。（或者 `nyay`，因为 lol nya）
+默认情况下，Nyarch Linux 将 `yay` 作为默认 AUR 助手。（或者 `nyay`，因为 neko neko）
 
 要安装 AUR 软件包，你可以运行
 ```bash
@@ -146,14 +144,14 @@ yay -S package
 yay -S zen-browser-bin
 ```
 
-### 更新软件包
+##### 更新软件包
 ```bash
 yay
 ```
 更新 AUR 中的所有软件包
 
 ### 使用 paru 进行
-`paru` 是一个功能丰富的 AUR 助手，用 Rust 编写，是 `yay` 的继任者，提供更安全的默认设置和更活跃的维护 [^2^][^10^]。
+`paru` 是一个功能丰富的 AUR 助手，用 Rust 编写，是 `yay` 的继任者，提供更安全的默认设置和更活跃的维护。
 
 要安装 `paru`，你可以运行：
 ```bash
@@ -163,8 +161,8 @@ cd paru
 makepkg -si
 ```
 
-### 使用 paru 安装软件包
-`paru` 使用与 `pacman` 类似的语法，使其易于上手 [^11^]。
+##### 使用 paru 安装软件包喵～
+`paru` 使用与 `pacman` 类似的语法，使其易于上手。
 
 要安装 AUR 软件包，你可以运行：
 ```bash
@@ -172,10 +170,10 @@ paru -S package
 ```
 例如，
 ```bash
-paru -S zen-browser-bin
+paru -S chrome
 ```
 
-### 更新软件包
+##### 更新软件包
 ```bash
 paru
 ```
@@ -183,12 +181,13 @@ paru
 ```bash
 paru -Syu
 ```
-这会同时更新官方仓库和 AUR 中的所有软件包 [^10^]。
+这会同时更新官方仓库和 AUR 中的所有软件包 。
 
-### paru 的额外功能
-- **查看 PKGBUILD**：`paru -Gp package` 可以在安装前查看软件包构建脚本 [^11^]
-- **查看 AUR 评论**：`paru -Gc package` 可以查看其他用户对软件包的评论 [^4^]
-- **交互式搜索**：直接运行 `paru searchterm` 可以交互式搜索并选择安装 [^10^]
+##### paru 的小提示
+- **推出审阅**：审阅中按q即可推出
+- **查看 PKGBUILD**：`paru -Gp package` 可以在安装前查看软件包构建脚本 
+- **查看 AUR 评论**：`paru -Gc package` 可以查看其他用户对软件包的评论 
+- **交互式搜索**：直接运行 `paru searchterm` 可以交互式搜索并选择安装 
 - **跳过审查**：`paru -S package --skipreview`（不推荐用于不信任的软件包）
 
 ### 软件包名称指南
@@ -201,4 +200,3 @@ paru -Syu
 
 - `-bin`：此软件包是二进制软件包，这意味着它是**预编译**的，可以直接使用。你不需要从源代码构建它
 - 如果没有后缀，通常意味着该软件包是"发布"版本。换句话说，它是软件的最新稳定版本，没有任何后缀或前缀。
-```

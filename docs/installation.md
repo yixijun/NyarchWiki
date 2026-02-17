@@ -31,6 +31,10 @@ And choose your USB Drive **attention: be sure to choose the right drive since y
 6. Click "Flash" and wait for it to finish. 
 ![immagine](https://github.com/user-attachments/assets/8a0f4a68-c36a-4f8f-968d-0b2c59d442dd)
 
+### Using Ventoy ###
+
+Follow the official Ventoy instructions to create a Ventoy bootable drive, place the Nyarch ISO image on your mobile cat drive, then select the ISO image in the booted Ventoy menu.
+
 ### Choosing the installation method
 You can decide to install Nyarch in these ways:
 1. Deleting the whole disk and install Nyarch
