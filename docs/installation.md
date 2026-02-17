@@ -94,7 +94,7 @@ You can also choose:
 
   - **ext4**: is the standard for Linux distribution. It's faster in many cases and is considered to be more stable.
 
-  - **btrfs**: supports **instant snapshots**, has more protection against data corruption and redundancy. a bit slower in some cases.
+  - **btrfs**: supports **instant snapshots**, has more protection against data corruption and redundancy. a bit slower in some cases（Intel dont chose，the issue is repoetd in [Issues＃62](https://github.com/NyarchLinux/NyarchLinux/issues/62)）.
 
   - xfs: don't install it unless you know what you are doing
 
