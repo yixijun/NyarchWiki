@@ -7,13 +7,13 @@
 | 项目 | 项目类型 | 开发状态 | 所需技能 | 更多信息 |
 |---|---|---|---|---|
 | [KDE Plasma Spin](#kde-plasma-spin) | 桌面 Spin | 开发中 | 编程、Kirigami、ISO 构建 |  |
-| [Hyprland Spin](#hyprland-spin)  | 桌面 Spin | 想法  | 编程、gtk-layer-shell、ISO 构建 |   |
+| [Hyprland Spin](#hyprland-spin)  | 桌面 Spin | 思考中  | 编程、gtk-layer-shell、ISO 构建 |   |
 | [Nyarch Assistant 桌面宠物](#nyarch-assistant-desktop-puppet)  | 桌面应用程序 | 开发中 | 编程、Python、GTK Layer Shell  | Acchan 作为桌面宠物，集成 AI |
-| [Nyarch Tuner](#nyarch-tuner)  | 桌面应用程序 | 想法 | 编程、GTK  | 用户友好的实用程序，用于配置内核、zram、预加载... |
-| [AI 壁纸生成器](#ai-wallpaper-generator)  | 桌面应用程序 | 想法 | 编程、GTK  | 使用 AI 的简单动漫壁纸生成器 |
-| 应用程序选择 Calamares  | 改进 | 想法 | Calamares  | 添加配置页面，让您选择在 Calamares 安装程序上禁用/启用某些 Nyarch 功能 |
+| [Nyarch Tuner](#nyarch-tuner)  | 桌面应用程序 | 思考中 | 编程、GTK  | 用户友好的实用程序，用于配置内核、zram、预加载... |
+| [AI 壁纸生成器](#ai-wallpaper-generator)  | 桌面应用程序 | 思考中 | 编程、GTK  | 使用 AI 的简单动漫壁纸生成器 |
+| 应用程序选择 Calamares  | 改进 | 思考中 | Calamares  | 添加配置页面，让您选择在 Calamares 安装程序上禁用/启用某些 Nyarch 功能 |
 | [新主页](#new-website)  | 网站 | 开发中 | HTML、CSS、JS  | Nyarch 的新现代滚动网站。目前分配给 Wawa。 |
-| [更好的 AI 集成](#better-ai-intergation)  | 桌面应用程序 | 想法（已拒绝） | 编程、Python  | 添加写作助手、OCR 等...并与 Nyarch Assistant 集成  |
+| [更好的 AI 集成](#better-ai-intergation)  | 桌面应用程序 | 思考中（已拒绝） | 编程、Python  | 添加写作助手、OCR 等...并与 Nyarch Assistant 集成  |
 
 ## 项目描述
 在本节中，您可以找到有关项目的一些探索以及可能加速开发的软件、库等。
